@@ -65,7 +65,7 @@ switch (choice) {                         // must use break
       default: // else
             text = "no option selected";
             break;
-
 }
+
 document.getElementById("root").innerHTML=text;
 ```

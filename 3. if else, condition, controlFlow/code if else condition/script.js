@@ -19,3 +19,12 @@ switch (choice) {
 }
 
 document.getElementById("root").innerHTML = text;
+
+var i=0;
+let name= "niamul"
+for(i=0;i<name.length;i++){
+   console.log(`value of i: ${i}`);
+   console.log(name[i]);
+}
+
+
