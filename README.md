@@ -1,1 +1,3 @@
-# javascriptLearning
+# JavascriptLearning
+
+### printing/ output text: 
