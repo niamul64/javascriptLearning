@@ -1,14 +1,21 @@
-var x;
-x = prompt("Enter your name");
+var choice;
+choice = prompt("Enter numer1: ");
 
+var text;
 
-if (x  ) {
-      document.getElementById("root").innerHTML = "Hello " + x;
-      document.write("Hello " + x);
-      console.log("Hello " + x);
+switch (choice) {
+      case "a":
+            text = "option 1 selected";
+            break;
+      case "b":
+            text = "option 2 selected";
+            break;
+      case "c":
+            text = "option 3 selected";
+            break;
+      default:
+            text = "no option selected";
+            break;
 }
 
-else {
-      window.alert("please enter a value");
-      document.getElementById("root").innerHTML ="please enter a value"
-}
+document.getElementById("root").innerHTML = text;
