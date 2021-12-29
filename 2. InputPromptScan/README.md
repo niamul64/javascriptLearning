@@ -1,6 +1,6 @@
 ## Input taking
 
-## 1. prompt("");
+## 1. prompt(""); // all input comes as a string 
 ```
 prompt("Enter your name");
 ```
