@@ -53,11 +53,8 @@ O = Object   --> elements(head, body, H_tag, P_tah etc)
 M = Model    -->  tree structure model: 
 ```
 #### 15. DOM : https://github.com/niamul64/javascriptLearning/tree/main/6.%20DOM%20DocumentObjectModel
-
 #### 16. Change css style or html tag by js code: https://github.com/niamul64/javascriptLearning/tree/main/6.%20DOM%20DocumentObjectModel
-
 #### 17. getElementById  2. query selector: (Change css style or html tag by js code, for single element): https://github.com/niamul64/javascriptLearning/tree/main/6.%20DOM%20DocumentObjectModel
-
 #### 18. MultiSelector: 1. getElementsByclassName('') 2. getElementsByTagName('') 3. querySelectorAll(''): https://github.com/niamul64/javascriptLearning/tree/main/6.%20DOM%20DocumentObjectModel
-
 #### 19. forEach can be used on list by 'querySelectorAll'
+#### DOM traversing 
