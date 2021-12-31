@@ -185,3 +185,25 @@ console.log(arry);
 Output:
 ['cake is a food', 'Ice Cream is a food', 'chocolates is a food', 'Bread is a food']
 ```
+
+### forEach on array by html or css selector 
+```
+/// let's apply forEach on this array.
+
+// but // though it is an array, we can not travers this array directly by forEach
+// converting the array// now we can use forEach
+let listArr= Array.from(list); 
+
+listArr.forEach(function(link, index_of_link){
+      console.log(link, index_of_link);
+});
+```
+
+## forEach can be used on list by 'querySelectorAll'
+```
+// change color by accessing each element by for each
+let liodd= document.querySelectorAll('li:nth-child(even)');
+liodd.forEach(function(item, index){
+item.style.background = '#FAEBD7';
+});
+```
