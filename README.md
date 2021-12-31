@@ -57,4 +57,16 @@ M = Model    -->  tree structure model:
 #### 17. getElementById  2. query selector: (Change css style or html tag by js code, for single element): https://github.com/niamul64/javascriptLearning/tree/main/6.%20DOM%20DocumentObjectModel
 #### 18. MultiSelector: 1. getElementsByclassName('') 2. getElementsByTagName('') 3. querySelectorAll(''): https://github.com/niamul64/javascriptLearning/tree/main/6.%20DOM%20DocumentObjectModel
 #### 19. forEach can be used on list by 'querySelectorAll'
-#### DOM traversing 
+#### 20. DOM traversing: https://github.com/niamul64/javascriptLearning/tree/main/6.%20DOM%20traverse
+```
+Navigating Between Nodes: https://www.w3schools.com/js/js_htmldom_navigation.asp
+You can use the following node properties to navigate between nodes with JavaScript:
+
+parentNode
+childNodes[nodenumber]
+firstChild
+lastChild
+nextSibling
+previousSibling
+```
+#### 21. Create Replace and remove and HTML tag, class atribute: https://github.com/niamul64/javascriptLearning/tree/main/8.%20Create%20Replace%20and%20remove
