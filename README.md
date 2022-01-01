@@ -6,7 +6,6 @@ Line: document.getElementById("root")
 //document = from html document
 //find the element which id is 'root'.
 ```
-
 #### 1. Printing/ Display/ output a text: https://github.com/niamul64/javascriptLearning/tree/main/1.%20OutPrint
 #### 2. Input/ prompt/ scan/ user input taking: https://github.com/niamul64/javascriptLearning/tree/main/2.%20InputPromptScan
 ```
@@ -74,7 +73,6 @@ previousSibling
 #### 23. 1. onclick="" : https://github.com/niamul64/javascriptLearning/tree/main/9.%20EVENT%20add%20on%20HTML
 ###### events to triger js functiion: https://www.w3schools.com/js/js_events_examples.asp
 ###### onclick, ondblclick, onmouseover, onmousedown, onmouseup, onmouseout, onmousemove, onkeydown, onkeyup, onkeypress
-
 #### 24. Event listener at js (addEventListener): https://github.com/niamul64/javascriptLearning/tree/main/9.%20EVENT%20add%20on%20HTML
 #### 25. error handeling: try, catch, finally: (simple like java exception handeling) : https://www.w3schools.com/js/js_errors.asp
-###### see video error handeling: 
+###### see video error handeling: https://github.com/niamul64/javascriptLearning/tree/main/10.%20error%20handeling%2C%20try%20catch
