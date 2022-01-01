@@ -76,3 +76,5 @@ previousSibling
 ###### onclick, ondblclick, onmouseover, onmousedown, onmouseup, onmouseout, onmousemove, onkeydown, onkeyup, onkeypress
 
 #### 24. Event listener at js (addEventListener): https://github.com/niamul64/javascriptLearning/tree/main/9.%20EVENT%20add%20on%20HTML
+#### 25. error handeling: try, catch, finally: (simple like java exception handeling) : https://www.w3schools.com/js/js_errors.asp
+###### see video error handeling: 
