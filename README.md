@@ -89,4 +89,19 @@ previousSibling
 #### 29. Shorthand Characters and Assertions: https://github.com/niamul64/javascriptLearning/tree/main/11.%20Regular%20expression%20and%20pattern%20matching
 ##### short note: https://www.ibm.com/docs/en/rational-clearquest/9.0.1?topic=tags-meta-characters-in-regular-expressions
 ##### short note: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet
-### See example to be clear: https://github.com/niamul64/javascriptLearning/tree/main/11.%20Regular%20expression%20and%20pattern%20matching
+### See example to be clear( email matching check): https://github.com/niamul64/javascriptLearning/tree/main/11.%20Regular%20expression%20and%20pattern%20matching
+```
+regular_expresion = /^(\+)?(88)?01[0-9]{9}$/; // making the '+' and '88' optional. 0 to 9, have to appear 9 times. ($= must end with)
+str = "+8801717888888";
+console.log(regular_expresion.test(str));
+```
+#### 30. Convert JSON object to JavaScript: https://www.w3schools.com/js/js_json_parse.asp
+#### 31. convert Javascript object to JSON: https://www.w3schools.com/js/js_json_stringify.asp
+#### 32. Json data type: json do not support date object, function, and undifined : https://www.w3schools.com/js/js_json_datatypes.asp
+```
+Valid Data Types
+In JSON, values must be one of the following data types:
+1. string 2. number 3. object (JSON object) 4. array 5. boolean 6. null
+```
+#### 33. AJAX (Asynchronous JavaScript And XML): load data in background: https://github.com/niamul64/javascriptLearning/tree/main/12.%20AJAX%20load%20data%20or%20JSON%20data
+#### 33. fatch data API: load or fatch data in background: https://github.com/niamul64/javascriptLearning/tree/main/12.%20AJAX%20load%20data%20or%20JSON%20data
