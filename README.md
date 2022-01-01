@@ -75,4 +75,18 @@ previousSibling
 ###### onclick, ondblclick, onmouseover, onmousedown, onmouseup, onmouseout, onmousemove, onkeydown, onkeyup, onkeypress
 #### 24. Event listener at js (addEventListener): https://github.com/niamul64/javascriptLearning/tree/main/9.%20EVENT%20add%20on%20HTML
 #### 25. error handeling: try, catch, finally: (simple like java exception handeling) : https://www.w3schools.com/js/js_errors.asp
-###### see video error handeling: https://github.com/niamul64/javascriptLearning/tree/main/10.%20error%20handeling%2C%20try%20catch
+##### see video error handeling: https://github.com/niamul64/javascriptLearning/tree/main/10.%20error%20handeling%2C%20try%20catch
+  
+#### 26. Regular expression and pattern matching (exec): see video: https://github.com/niamul64/javascriptLearning/tree/main/11.%20Regular%20expression%20and%20pattern%20matching
+##### in sort about 'exec()' see : https://www.w3schools.com/jsref/jsref_regexp_exec.asp
+##### in sort about 'search(), replace(), test()' see : https://www.w3schools.com/js/js_regexp.asp
+#### 27. literal ad meta Characters: https://github.com/niamul64/javascriptLearning/tree/main/11.%20Regular%20expression%20and%20pattern%20matching
+##### short note: https://www.ibm.com/docs/en/rational-clearquest/9.0.1?topic=tags-meta-characters-in-regular-expressions
+##### short note: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet
+#### 28. Character Sets, Quantifier and Grouping: https://github.com/niamul64/javascriptLearning/tree/main/11.%20Regular%20expression%20and%20pattern%20matching
+##### short note: https://www.ibm.com/docs/en/rational-clearquest/9.0.1?topic=tags-meta-characters-in-regular-expressions
+##### short note: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet
+#### 29. Shorthand Characters and Assertions: https://github.com/niamul64/javascriptLearning/tree/main/11.%20Regular%20expression%20and%20pattern%20matching
+##### short note: https://www.ibm.com/docs/en/rational-clearquest/9.0.1?topic=tags-meta-characters-in-regular-expressions
+##### short note: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet
+### See example to be clear: https://github.com/niamul64/javascriptLearning/tree/main/11.%20Regular%20expression%20and%20pattern%20matching
