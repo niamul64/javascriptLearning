@@ -1,36 +1,17 @@
-let elemnt = document.createElement('li');
-console.log(elemnt);  // we can see an <li></li> at console
 
-//Now, we can add class, title and other atributes
-elemnt.className='a b c'; // added 3 class
-elemnt.classList.add('New_class');
-// adding other attributs as title
-elemnt.setAttribute('title', 'A title to new Element');
+let form = document.getElementById('form1'); // get the form by it's id
 
-// adding content between tag
- elemnt.appendChild(document.createTextNode("extra element added"));
+form.addEventListener('focus',message); // if the button clicked then function 'messege()' will be trigered
 
-// finally adding to HTML doc
-// to add an element we need to specify the tag, under which we are going to add the new tag
-let ol_tag= document.querySelector('ol'); // <ol_tag><ol> </ol><ol_tag>
-// Now under the ol tag add the created tag
-ol_tag.appendChild(elemnt);
-
-/////////// Now, add another <li> with a <a> under Element to <ul>
-let elemnt2 = document.createElement('li');
-let a_tag = document.createElement('a');
-
-a_tag.appendChild(document.createTextNode("instragram"));
-a_tag.setAttribute('href', 'https://www.instragram.com');
-// Now insert a_tag inside the <li> that we created
-elemnt2.appendChild(a_tag); // <elemnt2> <a_tag> </a_tag></elemnt2>
-
-// now insert this on HTML doc under <ul> 
-document.querySelector('ul').appendChild(elemnt2);
-
-console.log(elemnt2); // printing on browser console
+function message(e){ // this function wii be trigered if the button is clicked
+      this.style.background = '#FAEBD7';
+}
 
 
+let f = document.getElementById('form1');
+f.addEventListener('keyup',test);
 
-
-
+function test(e){ // this function wii be trigered if the button is clicked
+      console.log(this.value); // printing on console
+      document.getElementById('print').innerText=this.value; // print on the tag which id is 'print'
+}

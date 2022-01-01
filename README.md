@@ -71,3 +71,8 @@ previousSibling
 ```
 #### 21. Create Replace and remove and HTML tag, class atribute: https://github.com/niamul64/javascriptLearning/tree/main/8.%20Create%20Replace%20and%20remove
 #### 22. Triger js code from HTML/ add event on a element of HTML file: https://github.com/niamul64/javascriptLearning/tree/main/9.%20EVENT%20add%20on%20HTML
+#### 23. 1. onclick="" : https://github.com/niamul64/javascriptLearning/tree/main/9.%20EVENT%20add%20on%20HTML
+###### events to triger js functiion: https://www.w3schools.com/js/js_events_examples.asp
+###### onclick, ondblclick, onmouseover, onmousedown, onmouseup, onmouseout, onmousemove, onkeydown, onkeyup, onkeypress
+
+#### 24. Event listener at js (addEventListener): https://github.com/niamul64/javascriptLearning/tree/main/9.%20EVENT%20add%20on%20HTML
