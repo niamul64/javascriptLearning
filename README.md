@@ -38,7 +38,7 @@ for(i=0;i<name.length;i++){
    console.log(name[i]);
 }
 ```
-#### 8. function, forEach and map (array iteration using mapping): https://github.com/niamul64/javascriptLearning/tree/main/4.%20function
+#### 8. function, Arrow Function, forEach and map (array iteration using mapping): https://github.com/niamul64/javascriptLearning/tree/main/4.%20function
 #### 9. Object Methods or object function: if the function is inside an object then we call that object method: https://github.com/niamul64/javascriptLearning/tree/main/5.%20objectMethod
 #### 10. Math (search on google) : https://www.w3schools.com/js/js_math.asp
 #### 11. Date Object (search on google): https://www.w3schools.com/js/tryit.asp?filename=tryjs_date_new_string
@@ -108,10 +108,20 @@ In JSON, values must be one of the following data types:
 #### 34. onprogress: https://github.com/niamul64/javascriptLearning/tree/main/12.%20AJAX%20load%20data%20or%20JSON%20data
 ##### showing loading sign.
 
-#### 35. setTimeout() , call back function. run function on a delay of some seconds. we will use modern techince so if needed then watch video: 
+#### 35. setTimeout() , call back function. run function on a delay of some seconds. we will use modern techince so if needed then watch video: https://github.com/niamul64/javascriptLearning/tree/main/13.%20call%20back%20function
 ```
 setTimeout(function() {
    console.log('hello');
    }, 2000); // run after 2 seconds
 ```
-#### 36. then key word: 
+#### 36. promise and then key word: https://github.com/niamul64/javascriptLearning/tree/main/13.%20call%20back%20function
+<br> <br> <hr> <br>
+
+## 37. fatch, data face, altimate use of arrow function:
+#### 1. fatch is already built in, we can use directly
+```
+
+```
+
+
+

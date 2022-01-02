@@ -71,6 +71,9 @@ printSometingEx("Hasan");                   // calling the function
 let funaction_name= () => {
       //Body
 }
+
+// or
+let function_name= if_one_parameter => return_value; // one line
 ```
 ## 1. Simple example
 ```
