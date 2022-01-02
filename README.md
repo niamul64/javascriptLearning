@@ -117,11 +117,74 @@ setTimeout(function() {
 #### 36. promise and then key word: https://github.com/niamul64/javascriptLearning/tree/main/13.%20call%20back%20function
 <br> <br> <hr> <br>
 
-## 37. fatch, data face, altimate use of arrow function:
-#### 1. fatch is already built in, we can use directly
+## 37. fetch, data fetch, altimate use of arrow function: see fetch code: https://github.com/niamul64/javascriptLearning/tree/main/14.%20fatch%20code
+#### 1. fetch is already built in, we can use directly
+#### 2. fetch(url); // easy way
 ```
+////////// very simple| without any arrow functions.  ///////////////
+
+document.getElementById("btnClick").addEventListener('click', getdata); // if button is clicked then 'getdata' func will be called.
+// 'click' is the event listener
+
+//use api to grab joke: url: http://api.icndb.com/jokes/random/(number)
+function getdata(){
+      // fatch API call
+      fetch('http://api.icndb.com/jokes/random')// fatch function returns a promise// to grab that promise, need to use .then key word.
+            .then(function(response){       // raw data will be in the 'response'
+                                            //console.log(response.json());
+                  return response.json();  // returning the promise
+            })                             // Now the promise will be accepted by another then
+            .then(function(data){
+                  console.log(data.value); // printing the obj
+            }).catch(function(err){        // if any error occurs. catch the error
+                  console.log(err);        // print the error
+            }).finally(function(error){   
+
+                 console.log('ThankYou'); // finly this line will printed
+            })
+}
 
 ```
+#### ////////// same fetch code with  arrow functions.  /////////////
+##### arrow funct basic: https://github.com/niamul64/javascriptLearning/tree/main/4.%20function
+```
+/// we know arrow function structure: 
+let function_name = parameter => parameter | let function_name = (parameter) =>{ // if we are using only one parameter then do not need to use 1st parenthesis.
+                                           |                   //Body;           // if we are just returning a value then do not need to use 2nd parenthesis          
+                                           |              }
+```
+### Now the actual code: with arrow function.
+```
+/// /// Now the actual code:
 
+document.getElementById("btnClick").addEventListener('click', getdata); // if button is clicked then 'getdata' func will be called.
+// 'click' is the event listener
 
-
+//use api to grab joke: url: http://api.icndb.com/jokes/random/(number)
+function getdata(){
+      // fatch API call
+      fetch('http://api.icndb.com/jokes/random')// fatch function returns a promise// to grab that promise, need to use .then key word.
+            .then( response => response.json())       // .then(function(response){ return response.json(); }) 
+            .then(data => console.log(data.value))    // .then(function(data) { console.log( data.value ) ;}) 
+            .catch( err => console.log(err))          // .catch(function(err){console.log(err);})
+}
+```
+### with arrow function and without arrow function side by side:
+```
+                  With Arrow Function                                      |              Without Arrow Function
+...........................................................................|.........................................................................
+                                                                           |
+document.getElementById("btnClick").addEventListener('click', getdata);    |  document.getElementById("btnClick").addEventListener('click', getdata);
+                                                                           |
+                                                                           |
+//use api to grab joke: url: http://api.icndb.com/jokes/random/(number)    |  function getdata(){
+function getdata(){                                                        |     fetch('http://api.icndb.com/jokes/random')
+                                                                           |           .then(function(response){
+      fetch('http://api.icndb.com/jokes/random')                           |                    return response.json();
+            .then( response => response.json())                            |                 }).then(function(data){
+            .then(data => console.log(data.value))                         |                    console.log(data.value);
+            .catch( err => console.log(err))                               |                 }).catch(function(err){ 
+}                                                                          |                    console.log(err);
+                                                                           |                 })
+                                                                           |                 }
+```
