@@ -107,3 +107,11 @@ In JSON, values must be one of the following data types:
 #### 33. fatch data API: load or fatch data in background: https://github.com/niamul64/javascriptLearning/tree/main/12.%20AJAX%20load%20data%20or%20JSON%20data
 #### 34. onprogress: https://github.com/niamul64/javascriptLearning/tree/main/12.%20AJAX%20load%20data%20or%20JSON%20data
 ##### showing loading sign.
+
+#### 35. setTimeout() , call back function. run function on a delay of some seconds. we will use modern techince so if needed then watch video: 
+```
+setTimeout(function() {
+   console.log('hello');
+   }, 2000); // run after 2 seconds
+```
+#### 36. then key word: 
