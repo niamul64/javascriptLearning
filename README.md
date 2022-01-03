@@ -1,4 +1,6 @@
 ### JavascriptLearning : online js coding practice(https://jsbin.com/)
+### import file, export file use another file's code: https://www.w3schools.com/react/tryit.asp?filename=tryreact_es6_module1
+
 #### array or obj marging by : spread rest operator(...): https://www.w3schools.com/react/tryit.asp?filename=tryreact_es6_spread2
 
 ### Note:
